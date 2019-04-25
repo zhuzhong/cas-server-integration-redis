@@ -1,12 +1,12 @@
-#cas-server-integration-redis
+# cas-server-integration-redis
 
-##功能说明
+## 功能说明
 
 cas应用redis的集群方式,默认情况cas已经提供了很多的集群方式，比如mongo,memcached,ehcache等，但是redis普遍性很高，也是为了公司的应用，所以扩展一下此功能.
 
 
 
-##使用配置
+## 使用配置
 	ticketRegistry.xml中
 	<bean id="ticketRegistry" class="org.jasig.cas.ticket.registry.DefaultTicketRegistry"/>
 	
